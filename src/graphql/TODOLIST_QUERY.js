@@ -6,6 +6,7 @@ const TODOLIST_QUERY = gql`
       id
       name
       task
+      checked
     }
   }
 `;

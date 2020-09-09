@@ -26,7 +26,6 @@ function App() {
         </Toolbar>
       </AppBar>
       <TodoList />
-      <div>eae</div>
       <SettingsComponent
         setting={
           data.appBarColorSetting.setting === "primary"

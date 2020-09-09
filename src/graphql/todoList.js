@@ -1,10 +1,12 @@
 import { makeVar } from "@apollo/client";
 
+//initial state
 const todoList = makeVar([
   {
     id: 1,
-    name: "Jian",
-    task: "Tarefa de teste"
+    name: "Fazer café ☕",
+    checked: false,
+    task: "eae"
   }
 ]);
 

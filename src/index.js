@@ -24,6 +24,7 @@ const typeDefs = gql`
     id: Int!
     name: String!
     task: String!
+    checked: Boolean!
   }
 
   extend type Query {
